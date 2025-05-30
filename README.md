@@ -4,6 +4,11 @@
 This repository contains code for the FINRISK 2002 article Variation and
 prognostic potential of the gut antibiotic resistome in the FINRISK 2002
 cohort, 2025.
+Preprint: Population variation and prognostic potential of gut antibiotic resistome
+K. Pärnänen, M. Ruuskanen, G. Sommeria-Klein, V. Laitinen, P. Kantanen, G. Méric, 
+C. Gazolla Volpiano, M. Inouye, R. Knight, V. Salomaa, A. S. Havulinna, T. Niiranen,
+L. Lahti
+medRxiv 2024.08.08.24311663; doi: https://doi.org/10.1101/2024.08.08.24311663
 
 Code contributed by Katariina Pärnänen, Matti Ruuskanen, Ville Laitinen
 and Leo Lahti.

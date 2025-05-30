@@ -24,6 +24,8 @@ For MAC users, install gcc via Homebrew and follow these instructions to
 set up installations requiring c++/gcc/gfortran
 <https://medium.com/biosyntax/following-up-library-dependency-when-compiling-r-packages-89f191b9f227>
 
+sessionInfo.txt contains the exact package versions.
+
 Run `Carpentry_TreeSE.R` script that creates all the necessary data
 objects. Enough to run once. Note that this requires access to sensitive
 phenotype data from FINRISK.

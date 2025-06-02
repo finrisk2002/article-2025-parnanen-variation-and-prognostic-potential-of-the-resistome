@@ -278,7 +278,7 @@ tab$Variable <- dic.args[str_replace_all(as.character(tab$Variable), "[-\\,]", "
 tab$Component <- dic.nmf[tab$Component]
 tab <- tab %>% rename(Enterosignature=Component) %>%
                mutate(Tau=round(Tau, 2)) %>%
-               mutate(Padj=round(Padj, 6))
+               mutate(Padj=round(Padj, 16))
 
 tab2 <- res2 %>% select(-P)
 dic.variables <- as.character(unique(tab2$Variable)); names(dic.variables) <- as.character(dic.variables)
@@ -288,10 +288,10 @@ tab2$Variable <- dic.variables[as.character(tab2$Variable)]
 tab2$Component <- dic.nmf[tab2$Component]
 tab2 <- tab2 %>% rename(Enterosignature=Component) %>%
                  mutate(Tau=round(Tau, 2)) %>%
-                 mutate(Padj=round(Padj, 3))
+                 mutate(Padj=round(Padj, 16))
 
 tabs <- rbind(tab, tab2)
-tabs$Padj <- str_replace(as.character(tabs$Padj), "^0$", "<1e-3")
+tabs$Padj <- str_replace(as.character(tabs$Padj), "^0$", "<1e-16")
 tabs$Tau <- as.character(tabs$Tau)
 tabs <- tabs %>% rename(FDR=Padj)
 

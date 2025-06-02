@@ -10,6 +10,9 @@ C. Gazolla Volpiano, M. Inouye, R. Knight, V. Salomaa, A. S. Havulinna, T. Niira
 L. Lahti
 medRxiv 2024.08.08.24311663; doi: https://doi.org/10.1101/2024.08.08.24311663
 
+Source code:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15574152.svg)](https://doi.org/10.5281/zenodo./15574152)
+
 Code contributed by Katariina Pärnänen, Matti Ruuskanen, Ville Laitinen
 and Leo Lahti.
 

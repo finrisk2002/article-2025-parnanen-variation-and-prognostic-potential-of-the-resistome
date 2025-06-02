@@ -11,7 +11,7 @@ L. Lahti
 medRxiv 2024.08.08.24311663; doi: https://doi.org/10.1101/2024.08.08.24311663
 
 Source code:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15574151.svg)]((https://doi.org/10.5281/zenodo.15574151))
+https://doi.org/10.5281/zenodo.15574151
 
 Code contributed by Katariina Pärnänen, Matti Ruuskanen, Ville Laitinen
 and Leo Lahti.

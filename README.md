@@ -127,7 +127,7 @@ source("Figure2_regional_trends.R") -\> Table_S3.xlsx
 **Supplementary Table S4** `source("Table_S4.R")` \# -\>
 Table_S4_ARG_ALUE_pairwise.xlsx
 
-**Supplementary Table S5** - ES-ARG associations `source("Figure3.R")`
+**Supplementary Table S5** - ES-ARG associations `source(Linear_models_ARG_load-R)` `source("Figure3.R")`
 -\> Table_S5_ES_ARG_association.xlsx
 
 **Supplementary Table S6** `source("Figure_supplement_survival.R")` \#

@@ -1,0 +1,120 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Code for  Article Variation and prognostic potential of
+  the gut antibiotic resistome in the FINRISK 2002 cohort,
+  Pärnänen et al., 2025
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Katariina
+    family-names: Pärnänen
+    name-particle: Katariina
+    email: katariina.parnanen@utu.fi
+    affiliation: >-
+      Department of Computing, University of Turku; 20500
+      Turku, Finland.
+    orcid: 'https://orcid.org/0000-0003-2220-1738'
+  - given-names: Matti
+    family-names: Ruuskanen
+    affiliation: >-
+      Department of Computing, University of Turku; 20500
+      Turku, Finland.
+    orcid: 'https://orcid.org/0000-0003-4221-2880'
+  - given-names: Guilhem
+    family-names: Sommeria-Klein
+    affiliation: 'Inria, Univ. Bordeaux, INRAE; F-33400 Talence, France'
+    orcid: 'https://orcid.org/0000-0002-5331-3639'
+  - given-names: Ville
+    family-names: Laitinen
+    affiliation: >-
+      Department of Computing, University of Turku; 20500
+      Turku, Finland.
+    orcid: 'https://orcid.org/0000-0002-2653-1673'
+  - given-names: Pyry
+    family-names: Kantanen
+    orcid: 'https://orcid.org/0000-0003-2853-2765'
+    affiliation: >-
+      Department of Computing, University of Turku; 20500
+      Turku, Finland.
+  - given-names: Guillaume
+    family-names: Méric
+    affiliation: >-
+      Cambridge Baker Systems Genomics Initiative, Baker
+      Heart and Diabetes Institute; 3004 Melbourne,
+      Victoria, Australia. Department of Cardiometabolic
+      Health, University of Melbourne; 3010 Melbourne,
+      Victoria, Australia. Central Clinical School, Monash
+      University; 3004 Melbourne, Victoria, Australia
+      Department of Cardiovascular Research, Translation and
+      Implementation, La Trobe University; 3086 Melbourne,
+      Victoria, Australia.
+    orcid: 'https://orcid.org/0000-0001-6288-9958'
+  - given-names: Camila
+    family-names: Gazolla Volpiano
+    affiliation: >-
+      Cambridge Baker Systems Genomics Initiative, Baker
+      Heart and Diabetes Institute; 3004 Melbourne,
+      Victoria, Australia. Department of Cardiometabolic
+      Health, University of Melbourne; 3010 Melbourne,
+      Victoria, Australia.
+  - given-names: Mike
+    family-names: Inouye
+    orcid: 'https://orcid.org/0000-0001-9413-6520'
+    affiliation: >-
+      Cambridge Baker Systems Genomics Initiative, Baker
+      Heart and Diabetes Institute, Melbourne, Victoria,
+      (Australia), Department of Cardiometabolic Health,
+      University of Melbourne, Melbourne, Victoria
+      (Australia), Cambridge Baker Systems Genomics
+      Initiative, Department of Public Health & Primary
+      Care, University of Cambridge, Cambridge (United
+      Kingdom), BHF Cardiovascular Epidemiology Unit,
+      Department of Public Health & Primary Care, University
+      of Cambridge, Cambridge (United Kingdom),
+  - affiliation: >-
+      University of California, San Diego - San Diego
+      (United States)
+    given-names: Rob
+    family-names: Knight
+    orcid: 'https://orcid.org/0000-0002-0975-9019'
+  - given-names: Veikko
+    family-names: Salomaa
+    affiliation: >-
+      Finnish Institute for Health and Welfare, THL -
+      Helsinki (Finland)
+    orcid: 'https://orcid.org/0000-0001-7563-5324'
+  - given-names: Aki
+    family-names: Havulinna
+    affiliation: >-
+      Department of Computing, University of Turku; 20500
+      Turku, Finland, Finnish Institute for Health and
+      Welfare (THL); 00271 Helsinki, Finland, Institute for
+      Molecular Medicine Finland, FIMM-HiLIFE; 00290
+      Helsinki, Finland
+    orcid: 'https://orcid.org/0000-0002-4787-8959'
+  - given-names: Teemu
+    family-names: Niiranen
+    affiliation: >-
+      Finnish Institute for Health and Welfare (THL); 00271
+      Helsinki, Finland. Institute for Molecular Medicine
+      Finland, FIMM-HiLIFE; 00290 Helsinki, Finland,
+      Department of Internal Medicine, Turku University
+      Hospital and University of Turku; 20521 Turku,
+      Finland.
+    orcid: 'https://orcid.org/0000-0002-7394-7487'
+  - given-names: Leo
+    family-names: Lahti
+    email: leo.lahti@utu.fi
+    affiliation: >-
+      Department of Computing, University of Turku; 20500
+      Turku, Finland
+    orcid: 'https://orcid.org/0000-0001-5537-637X'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.15574151
+    description: The DOI of the source code

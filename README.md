@@ -10,13 +10,16 @@ K. Pärnänen, M. Ruuskanen, G. Sommeria-Klein, V. Laitinen, P. Kantanen, G. Mé
 C. Gazolla Volpiano, M. Inouye, R. Knight, V. Salomaa, A. S. Havulinna, T. Niiranen,
 L. Lahti, 2024,
 
-medRxiv 2024.08.08.24311663; doi: https://doi.org/10.1101/2024.08.08.24311663
+medRxiv 2024.08.08.24311663; DOI: https://doi.org/10.1101/2024.08.08.24311663
 
 Source code:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15574151.svg)](https://doi.org/10.5281/zenodo.15574151)
 
 Code contributed by Katariina Pärnänen, Matti Ruuskanen, Ville Laitinen
 and Leo Lahti.
+
+Citation: See citation.cff
+License: See LICENSE
 
 # Instructions
 

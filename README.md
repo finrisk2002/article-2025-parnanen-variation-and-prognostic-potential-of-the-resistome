@@ -8,7 +8,8 @@ cohort, 2025.
 Preprint: Population variation and prognostic potential of gut antibiotic resistome
 K. Pärnänen, M. Ruuskanen, G. Sommeria-Klein, V. Laitinen, P. Kantanen, G. Méric, 
 C. Gazolla Volpiano, M. Inouye, R. Knight, V. Salomaa, A. S. Havulinna, T. Niiranen,
-L. Lahti, 2024
+L. Lahti, 2024,
+
 medRxiv 2024.08.08.24311663; doi: https://doi.org/10.1101/2024.08.08.24311663
 
 Source code:

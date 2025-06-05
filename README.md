@@ -116,7 +116,7 @@ tables (all-cause, cause-specific, sepsis)
 **Supplementary Figure S9** - Library size and ARG metrics
 `source("FigureS9.R")` -\> FigS9.pdf
 
-**Supplementary Figure S10** `source("FigureS10.R")`
+**Supplementary Figure S10** `source("FigureS10.R")` `source("Additional_checks.R")`
 
 ### Supplementary Tables
 

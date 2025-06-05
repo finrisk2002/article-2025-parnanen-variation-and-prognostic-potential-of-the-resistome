@@ -477,7 +477,27 @@ source("nmf.R") # "Enterosignatures" with NMF
 # Save the joint data object
 saveRDS(TSE, file="../data/TSE.rds")
 
-# -------------------------------------------------------------
+# ------------------------Family-ArG-associations------------------------------------------------
+
+xxx <- getCrossAssociation(altExp(TSE, "FamilyPrevalent", withColData=TRUE),
+                           assay.type1="counts",
+		           col.var2=c("SUM_norm", "ARG_div", "Species_diversity"), 
+                           method="kendall",
+			   mode="table",
+			   test.signif=TRUE,
+			   p.adj.method="fdr"
+			   )
+xxx <- xxx[, !colnames(xxx)=="pval"]
+colnames(xxx) <- c("Family", "Variable", "Tau", "FDR")
+xxx$Tau <- round(xxx$Tau, 3)
+xxx$FDR <- round(xxx$FDR, 3)
+xxx <- xxx[!xxx$Family=="Other",]
+xxx$Variable <- str_replace(xxx$Variable, "ARG_div", "ARG diversity")
+xxx$Variable <- str_replace(xxx$Variable, "SUM_norm", "ARG load")
+xxx$Variable <- str_replace(xxx$Variable, "Species_diversity", "Species diversity")
+xxx <- xxx[, c(2, 1, 3, 4)] %>% arrange(Variable, Family)
+Family_ARG_associations <- xxx
+saveRDS(Family_ARG_associations, file="Family_ARG_associations.rds")
 
 # R-4.2.3 installation
 # --with-readline=no --with-x=no
